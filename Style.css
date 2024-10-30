@@ -1,0 +1,87 @@
+
+body{
+    margin:0;
+    padding:0;
+   background-color: rgb(199, 218, 243);
+   color: black;
+
+}
+.Heading{
+    font-family: Cursive;
+    Font-weight:Bold;
+    background-color: rgb(69, 121, 132);;
+    border:2px solid rgb(17, 40, 21);
+    font-size: 15px;
+   text-shadow: 2px 2px 4px rgb(40, 41, 44);
+    padding: 10px 0; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 100%; 
+    height: 3em;
+    display: flex;
+}
+.headItem{
+  padding:5px 10px;
+  margin:auto;
+  text-decoration: none;
+ 
+}
+ 
+a{
+  text-decoration: none;
+  color:black;
+  
+}
+.headItem :hover{
+  color:white;
+}
+.Box{
+    background-color: rgb(69, 121, 132);
+    height: 20em;
+    width:30em;
+    margin:25px;
+    padding:25px;
+    border:2px solid rgb(21, 26, 19);
+    display: inline-block;
+    overflow: auto;
+    min-height: 20em;
+    border-radius: 13px;
+}
+select{
+   background-color: rgb(69, 121, 132); 
+   text-shadow: 2px 2px 4px rgb(40, 41, 44);
+   border: 1px solid  rgb(69, 121, 132); 
+   color: black; font-weight: bold;
+}
+
+.Box img{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+
+.Box:hover h2 {
+  
+  color: white;
+}
+.color{
+  background-color: rgb(69, 121, 132);
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Adjust scrollbar width */
+    border-radius: 13px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(13, 49, 68); /* Scrollbar handle color */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #195b7f; /* Scrollbar track color */
+   border-radius: 13px;
+  }
+  
