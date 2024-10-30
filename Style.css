@@ -48,10 +48,16 @@ a{
     border-radius: 13px;
 }
 select{
-   background-color: rgb(69, 121, 132); 
-   text-shadow: 2px 2px 4px rgb(40, 41, 44);
-   border: 1px solid  rgb(69, 121, 132); 
-   color: black; font-weight: bold;
+  background-color: rgb(69, 121, 132);
+  text-shadow: 2px 2px 4px rgb(40, 41, 44);
+  border: 1px solid rgb(69, 121, 132);
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
 }
 
 .Box img{
