@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(199, 218, 243); 
+}
+h1{
+    font-family: Cursive;
+    Font-weight:Bold;
+    background-color: rgb(69, 121, 132);
+    border:3px solid black;
+    font-size: 50px;
+   text-shadow: 2px 2px 4px rgb(40, 41, 44);
+    padding: 10px 0; 
+    margin: 0 auto; 
+    width: 100%; 
+}
+.box{
+    background-color: rgb(69, 121, 132);
+    height: 20em;
+    width:30em;
+    margin:25px;
+    padding:25px;
+    border:2px solid rgb(21, 26, 19);
+    display: inline-block;
+    overflow: auto;
+    min-height: 20em;
+    border-radius: 13px;
+}
