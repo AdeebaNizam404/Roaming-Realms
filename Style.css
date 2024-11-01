@@ -32,6 +32,9 @@ a{
   color:black;
   
 }
+.Boxheading :hover{
+  color:white;
+}
 .headItem :hover{
   color:white;
 }
@@ -67,11 +70,6 @@ select{
     border-radius: 13px;
 }
 
-
-.Box:hover h2 {
-  
-  color: white;
-}
 .color{
   background-color: rgb(69, 121, 132);
 }
